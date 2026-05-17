@@ -289,7 +289,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
     letter-spacing: .05em;
   }
 
-  /* ════════ APP ════════ */
   #appScreen {
     position: relative; z-index: 1;
     width: 100%; max-width: 980px;
@@ -301,7 +300,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
 
   #appScreen.hidden { display: none; }
 
-  /* Top bar */
   .topbar {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -383,7 +381,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
     border-bottom: none;
   }
 
-  /* Sidebar */
   .sidebar {
     width: 175px;
     flex-shrink: 0;
@@ -506,7 +503,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
     box-shadow: 0 0 8px rgba(0,229,255,.06);
   }
 
-  /* DM bubble overrides */
   .msg.dm-msg .msg-bubble { border-style: dashed; }
 
   .msg.own.dm-msg .msg-bubble {
@@ -556,7 +552,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
 
   .empty-state .big { font-size: 2rem; filter: drop-shadow(0 0 8px rgba(0,229,255,.4)); }
 
-  /* Input area */
   .input-area {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -672,7 +667,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
 
   .btn-clear:hover { color: var(--neon-pink); border-color: rgba(255,45,120,.3); }
 
-  /* Rainbow bottom bar */
+
   .bottombar {
     height: 3px;
     background: linear-gradient(90deg, var(--neon-cyan), var(--neon-purple), var(--neon-pink));
@@ -680,7 +675,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
     border-radius: 0 0 var(--radius) var(--radius);
   }
 
-  /* Toast */
+
   #toast {
     position: fixed;
     bottom: 1.5rem; left: 50%;
@@ -723,7 +718,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
   <p class="login-hint">Solo necesitas un nombre · Sin contraseña · Sin registro</p>
 </div>
 
-<!-- APP -->
+
 <div id="appScreen" class="hidden">
 
   <div class="topbar">
@@ -749,7 +744,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['poll'])) {
       <div class="sidebar-users" id="userList"></div>
     </div>
 
-    <!-- Chat -->
+
     <div class="chat-panel">
       <div id="messages">
         <div class="empty-state" id="emptyState">
