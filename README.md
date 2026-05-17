@@ -26,7 +26,7 @@
 ## 📸 Preview
 
 ```
-[ChatCrypt Preview](.screenshots/example.png)
+![ChatCrypt Preview](.screenshots/example.png)
 ```
 
 ---
