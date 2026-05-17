@@ -26,17 +26,7 @@
 ## 📸 Preview
 
 ```
-╔══════════════════════════════════════════════════════╗
-║  ChatCrypt                  # general    your_alias  AES-256 ║
-╠══════════════╦═══════════════════════════════════════╣
-║ # Channels   ║                                       ║
-║  # general   ║  🔒 No messages yet                  ║
-║              ║  Everything is encrypted              ║
-║ Online       ║                                       ║
-║  • user1     ║                                       ║
-║  • user2     ╠═══════════════════════════════════════╣
-║              ║  [ Type a message... ]      [Send]    ║
-╚══════════════╩═══════════════════════════════════════╝
+[ChatCrypt Preview](.screenshots/example.png)
 ```
 
 ---
